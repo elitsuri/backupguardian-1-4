@@ -1,0 +1,40 @@
+# Version control
+.git
+.gitignore
+
+# Docs
+*.md
+LICENSE
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+.nuxt/
+
+# Go
+bin/
+vendor/
+
+# Rust
+target/
+
+# IDE
+.idea/
+.vscode/
+*.swp
